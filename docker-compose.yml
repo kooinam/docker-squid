@@ -4,4 +4,5 @@ Squid:
     - "3128:3128"
   volumes:
     - ./squid.conf:/etc/squid/squid.conf
+    - /squid/passwords:/etc/squid3/passwords
   restart: always
